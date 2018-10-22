@@ -50,10 +50,13 @@ Changes in Binary-4 with respect to Binary-3.2
   (this matter has been pointed out by Arseniy Alekseyev).
 
 * It is used a different representation for Bin:
-  data Bin : Set
-       where
+
+  data Bin : Set where
+
        0#    : Bin
+
        2suc  : Bin -> Bin    -- \n-> 2*(1+n)  arbitrary nonzero even
+
        suc2* : Bin -> Bin    -- \n-> 1 + 2n   arbitrary odd
 
 * _<_ on Bin is defined defined by mapping to Nat 
