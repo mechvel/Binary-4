@@ -124,15 +124,17 @@ It also includes the module  LtReasoning.agda  -- a support for inequality
 reasoning by Ulf Norell.
 
 Installation: 
+
               agda -c $agdaLibOpt GCDTest.agda
 
-Performance tests:  LogarithmTest.agda, DivModTest.agda, GCDTest.agda
-                    ("readme"-s are included). 
+Performance tests:  
+
+  LogarithmTest.agda, DivModTest.agda, GCDTest.agda
+  ("readme"-s are included). 
 
 Comments and improvements are welcome.
 
 ---------------------
 Sergei D. Meshveliani
 mechvel@botik.ru
-# Binary-4
-# Binary-4
+
